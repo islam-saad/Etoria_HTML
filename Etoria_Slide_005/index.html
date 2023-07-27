@@ -66,6 +66,22 @@
     <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/veeva-library.js"></script>
     <script src="js/main.js"></script>
+    <!-- swipe -->
+    <script type="text/javascript" src="../swip/jquery-ui-1.9.2.custom.min.js"></script>
+    <script type="text/javascript" src="../swip/jquery.touchSwipe.js"></script>
+    <script type="text/javascript" src="../swip/jquery.touchSwipe.min.js"></script>
+    <script type="application/javascript">
+        $(document).ready(function (e) {
+            $("#slide-content").swipe({
+                swipeLeft: function (event, direction, distance, duration, fingerCount) {
+                    window.location = "../Etoria_Slide_007/index.html";
+                },
+                swipeRight: function (event, direction, distance, duration, fingerCount) {
+                    window.location = "../Etoria_Slide_002/index.html";
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
