@@ -1,0 +1,23 @@
+#img1 {
+    left: 474px;
+    top: 452px;
+    -webkit-animation: fadeInLeft 1.5s both 0.2s;
+}
+
+#img2 {
+    left: 474px;
+    top: 650px;
+    -webkit-animation: fadeInLeft 1.5s both 1s;
+}
+
+#img3 {
+    left: 474px;
+    top: 930px;
+    -webkit-animation: fadeInLeft 1.5s both 2s;
+}
+
+#img4 {
+    left: 967px;
+    top: 550px;
+    -webkit-animation: zoomIn 1.5s both 3s;
+}

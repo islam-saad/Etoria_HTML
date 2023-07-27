@@ -1,0 +1,9 @@
+#img1 {
+    position: absolute;
+    left: 360px;
+    top: 845px;
+    max-width: 636px;
+    height: 193px;
+    -webkit-animation: drawLine 7s both 0.2s;
+    background: url(../img/1.png) no-repeat;
+}

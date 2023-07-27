@@ -1,0 +1,11 @@
+#img1 {
+    left: 220px;
+    top: 588px;
+    -webkit-animation: zoomIn 1.5s both 0.2s;
+}
+
+#img2 {
+    left: 1130px;
+    top: 607px;
+    -webkit-animation: zoomIn 1.5s both 1s;
+}

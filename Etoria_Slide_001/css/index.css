@@ -1,0 +1,25 @@
+#img1 {
+    left: 0px;
+    top: 0px;
+    -webkit-animation: fadeInLeftBig 1.5s both 0.2s;
+}
+
+#img2 {
+    left: 0px;
+    top: 50px;
+    -webkit-animation: fadeInLeftBig 1.5s both 1s;
+}
+
+#img3 {
+    left: 0px;
+    bottom: 0px;
+    -webkit-animation: fadeInLeftBig 1.5s both 2s;
+}
+
+#ref_2 {
+    position: absolute;
+    left: 1870px;
+    top: 182px;
+    width: 140px;
+    height: 90px;
+}

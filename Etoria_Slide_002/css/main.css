@@ -1,0 +1,171 @@
+body {
+    width: 2048px;
+    max-height: 768px;
+    overflow: hidden;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+}
+
+#slide-content {
+    background: url("../img/bg.png") no-repeat;
+    width: 2048px;
+    height: 1536px;
+    position: relative;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+#openMenu {
+    position: absolute;
+    left: 109px;
+    top: 92px;
+    width: 352px;
+    height: 115px;
+    z-index: 20;
+}
+
+#menu {
+    background: url("../img/menu.png") no-repeat;
+    left: 111px;
+    top: 90px;
+    width: 351px;
+    height: 533px;
+    position: absolute;
+}
+
+#menu01 {
+    position: absolute;
+    left: 0px;
+    top: 122px;
+    width: 334px;
+    height: 50px;
+}
+
+#menu02 {
+    position: absolute;
+    left: 0px;
+    top: 184px;
+    width: 334px;
+    height: 50px;
+}
+
+#menu03 {
+    position: absolute;
+    left: 0px;
+    top: 242px;
+    width: 334px;
+    height: 50px;
+}
+
+#menu04 {
+    position: absolute;
+    left: 0px;
+    top: 309px;
+    width: 334px;
+    height: 50px;
+}
+
+#menu05 {
+    position: absolute;
+    left: 0px;
+    top: 379px;
+    width: 334px;
+    height: 50px;
+}
+
+#menu06 {
+    position: absolute;
+    left: 0px;
+    top: 447px;
+    width: 334px;
+    height: 50px;
+}
+
+#next {
+    position: absolute;
+    left: 1819px;
+    top: 102px;
+    width: 82px;
+    height: 80px;
+}
+
+#prev {
+    position: absolute;
+    left: 1628px;
+    top: 102px;
+    width: 82px;
+    height: 80px;
+}
+
+#home {
+    position: absolute;
+    left: 1719px;
+    top: 105px;
+    width: 85px;
+    height: 72px;
+}
+
+
+/*================== Menu ==================*/
+
+.btnClose {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 2048px;
+    height: 1320px;
+}
+
+#ref {
+    position: absolute;
+    left: 1710px;
+    top: 1282px;
+    width: 180px;
+    height: 80px;
+}
+
+#ref2 {
+    position: absolute;
+    left: 1310px;
+    top: 1157px;
+    width: 100px;
+    height: 90px;
+}
+
+.refDiv {
+    position: absolute;
+    width: 2048px;
+    height: 1536px;
+    overflow: hidden;
+    z-index: 10;
+    top: 0;
+}
+
+.refDiv.visible {
+    -webkit-animation: fadeIn 0.5s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}
+
+.refDiv.hidden {
+    -webkit-animation: fadeOut 0.5 ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+}

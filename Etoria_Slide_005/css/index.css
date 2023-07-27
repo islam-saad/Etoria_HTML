@@ -1,0 +1,17 @@
+#img1 {
+    left: 301px;
+    top: 830px;
+    -webkit-animation: zoomIn 1.5s both 0.2s;
+}
+
+#img2 {
+    left: 948px;
+    top: 830px;
+    -webkit-animation: zoomIn 1.5s both 1s;
+}
+
+#img3 {
+    left: 1558px;
+    top: 830px;
+    -webkit-animation: zoomIn 1.5s both 2s;
+}

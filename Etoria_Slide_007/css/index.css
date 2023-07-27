@@ -1,0 +1,5 @@
+#img1 {
+    left: 1130px;
+    top: 600px;
+    -webkit-animation: zoomIn 1.5s both 0.2s;
+}
